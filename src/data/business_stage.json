@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "label": "Idea or Patent",
+    "value": "Idea or Patent"
+  },
+  {
+    "id": "2",
+    "label": "Prototype",
+    "value": "Prototype"
+  },
+  {
+    "id": "3",
+    "label": "Early Revenue",
+    "value": "Early Revenue"
+  },
+  {
+    "id": "4",
+    "label": "Scaling",
+    "value": "Scaling"
+  },
+  {
+    "id": "5",
+    "label": "Growth",
+    "value": "Growth"
+  },
+  {
+    "id": "6",
+    "label": "Pre-IPO",
+    "value": "Pre-IPO"
+  }
+]

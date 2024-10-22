@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: #000000;
+  --app-background-rgb: #ffffff;
+}
+
+[dark-theme="dark"] {
+  --foreground-rgb: #ffffff;
+  --app-background-rgb: #000000;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: #000000;
+    --app-background-rgb: #ffffff;
+  }
+
+  .MuiPaginationItem-colorPrimary {
+    color: white;
+  }
+}
+
+body {
+  color: var(--foreground-rgb);
+  background: var(--app-background-rgb);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.Mui-disabled {
+  background-color: #D4D4D8;
+  color: #8E8E8E;
+}
+
+.MuiPagination-ul {
+  display: flex;
+  justify-content: end;
+}
+
+.MuiPaginationItem-ellipsis {
+  width: 32px;
+  height: 32px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+}
+
+.MuiPaginationItem-previousNext {
+  border: 1px solid #222222;
+  padding: 18px 0;
+}
